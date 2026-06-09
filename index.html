@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Koranee — 호주 한인 커뮤니티</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #F0EEEB;
+      color: #1a1a1a;
+    }
+    header {
+      background: #E8703A;
+      padding: 24px;
+      text-align: center;
+    }
+    header h1 {
+      color: white;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    header p {
+      color: rgba(255,255,255,0.85);
+      font-size: 15px;
+      margin-top: 6px;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 24px 40px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .hero h2 {
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .hero p {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.7;
+    }
+    .features {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0 24px 40px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .feature {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .feature .icon { font-size: 24px; margin-bottom: 8px; }
+    .feature h3 { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+    .feature p { font-size: 13px; color: #666; line-height: 1.5; }
+    .download {
+      text-align: center;
+      padding: 40px 24px 60px;
+    }
+    .download h2 { font-size: 22px; font-weight: 700; margin-bottom: 24px; }
+    .badges { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
+    .badge {
+      background: #1a1a1a;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    footer {
+      background: #1a1a1a;
+      color: #999;
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+    }
+    footer a { color: #ccc; margin: 0 8px; text-decoration: none; }
+    @media (max-width: 480px) {
+      .features { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Koranee</h1>
+    <p>호주 한인 커뮤니티 앱 · Korean-Australian Community</p>
+  </header>
+
+  <div class="hero">
+    <h2>호주 한인 생활의 모든 것</h2>
+    <p>쉐어 구하기, 구인구직, 중고 거래, 한인 업체 찾기, 이웃과의 소통까지 — 호주 한인에게 필요한 모든 것을 한곳에서.</p>
+  </div>
+
+  <div class="features">
+    <div class="feature">
+      <div class="icon">🏠</div>
+      <h3>쉐어</h3>
+      <p>호주 전 지역 쉐어 매물 검색</p>
+    </div>
+    <div class="feature">
+      <div class="icon">💼</div>
+      <h3>구인구직</h3>
+      <p>한국어 가능 일자리 찾기</p>
+    </div>
+    <div class="feature">
+      <div class="icon">🛍️</div>
+      <h3>장터</h3>
+      <p>중고 물품 사고팔기</p>
+    </div>
+    <div class="feature">
+      <div class="icon">🏪</div>
+      <h3>서비스</h3>
+      <p>한인 업체 디렉토리</p>
+    </div>
+    <div class="feature">
+      <div class="icon">💬</div>
+      <h3>동네수다</h3>
+      <p>이웃 한인들과 소통</p>
+    </div>
+    <div class="feature">
+      <div class="icon">📩</div>
+      <h3>1:1 채팅</h3>
+      <p>게시글 작성자와 바로 연락</p>
+    </div>
+  </div>
+
+  <div class="download">
+    <h2>지금 다운로드</h2>
+    <div class="badges">
+      <a class="badge" href="#">App Store</a>
+      <a class="badge" href="#">Google Play</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Koranee</p>
+    <p style="margin-top: 8px;">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="delete-account.html">Delete Account</a>
+      <a href="child-safety.html">Child Safety</a>
+      <a href="mailto:info@koranee.com">Contact</a>
+    </p>
+  </footer>
+
+</body>
+</html>
